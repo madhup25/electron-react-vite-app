@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# Electron + Vite + React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Basic application made with Electron, Vite, Forge, React, Tailwind, Shadcn UI.
 
-Currently, two official plugins are available:
+## Steps to run the app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+git clone https://github.com/madhup25/electron-react-vite-app.git
+
+```
+
+2. cd into repository and install dependencies
+
+```
+cd electron-react-vite-app && npm i
+```
+
+3. Run in development mode
+
+```
+npm run dev
+```
+
+4. Package the application
+
+```
+npm run package
+```
